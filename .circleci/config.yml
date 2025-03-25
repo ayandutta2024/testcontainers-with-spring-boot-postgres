@@ -3,7 +3,7 @@ version: 2.1
 executors:
   maven-java17-executor:
     docker:
-      - image: cimg/openjdk:17.0  # CircleCI Java 17 Docker image with Maven
+      - image: cimg/openjdk:17.0  # CircleCI Java 17 Docker image with Maven Test
     resource_class: medium
 
 jobs:
